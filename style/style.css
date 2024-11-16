@@ -1,0 +1,108 @@
+body {
+	background-image: url("../images/montaña.png");
+	background-repeat:no-repeat;
+	background-size: 140%;
+    font: 15px Arial, Tahoma, Verdana, sans-serif;
+}
+/* Ajustes generales */
+/* Div contenedor general */
+#wrapper {
+    width: 80%;
+	margin: auto;
+}
+
+/* Header */
+#header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Middle (contenido principal) */
+#middle {
+    width: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: white;
+}
+
+/* Content (contenido central) */
+#content {
+    width: 80%;
+	float: left;
+	padding: 10px;
+}
+#content .mi-boton{
+	padding: 10px 20px;
+	font-size: 16px;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: orange;
+  }
+#content img{
+    height: 150px;
+    width: 200px;
+    padding: 20px;      
+}
+#content img:active{
+    transform: scale(2.5); /* Aumenta el tamaño */
+    position: fixed; /* Centra la imagen en la pantalla */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2.5); /* Ajusta posición y tamaño */
+    z-index: 10;
+}
+#content table{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#content th{
+	border-style: dotted;
+}
+#content td{
+	border-style: dotted;
+}
+#content h2{
+	text-align: center;
+}
+/* Sidebar derecha */
+#sideRight {
+    width: 18%;
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	color: black;
+}
+
+/* Footer */
+#footer {
+    height: 15%;
+	width: 100%;
+	background-color: black;
+	border-radius: 20px;
+}
+ion-icon[name="logo-instagram"]{
+	height: 80px;
+	width: 50px;
+	color: blueviolet;
+	margin-left: 350px;
+}
+ion-icon[name="logo-twitter"]{
+	height: 80px;
+	width: 50px;
+	color: blueviolet;
+	margin-left: 150px;
+}
+ion-icon[name="logo-youtube"]{
+	height: 80px;
+	width: 50px;
+	color: blueviolet;
+	margin-left: 150px;
+
+}
+ion-icon:hover {
+	color: aqua;
+}
