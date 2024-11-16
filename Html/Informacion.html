@@ -52,7 +52,7 @@
                         <label for="comunidad">Selecciona tu Comunidad Autonoma</label>
                         <select name="comunidad" id="comunidad"><option value="madrid">Madrid</option><option value="aragon">Aragon</option><option value="barcelona">Barcelona</option></select><br>
                         <label for="sexo">Sexo</label>
-                        <input type="radio" name="sexo"><label for="sexo">Hombre</label><input type="radio" name="sexo"><label id="sexo">Mujer</label><input type="radio" name="sexo"><label for="sexo">No contestar</label>
+                        <input type="radio" name="sexo"><label for="sexo">Hombre</label><input type="radio" name="sexo"><label id="sexo">Mujer</label><input type="radio" name="sexo"><label for="sexo">No contestar</label><br>
                         <label for="codigo">Ponga su codigo postal</label>
                         <input required type="number" id="codigo" name="codigo">
                     </form>
@@ -60,9 +60,15 @@
                 <fieldset>
                     <legend>Informacion del ospedaje</legend>
                     <form>
-                        <label ></label>
+                        <label for="estacion">Seleccione la estacion</label>
+                        <select name="estacion" id="estacion"><option value="cerler">Cerler</option><option value="formigal">Formigal</option><option value="panticosa">Panticosa</option><option value="javalambre">Javalambre</option><option value="valdelinares">Valdelinares</option></select><br>
+						<label for="equipo">Trae usted el equipo</label>
+                        <input type="radio" name="equipo"><label for="equipo">Si</label><input type="radio" name="equipo"><label id="equipo">No</label><br>
+						<label for="ospedaje">Donde se ospeda</label>
+						<input required type="text" id="ospeda" name="ospedaje">
                     </form>
                 </fieldset>
+				<button type="submit">Enviar</button>
 			</div>            
 			<!--Panel de la derecha -->
 			<div class="sidebar" id="sideRight">

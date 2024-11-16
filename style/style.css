@@ -68,6 +68,12 @@ body {
 #content h2{
 	text-align: center;
 }
+#content button{
+	background-color: grey;
+	color: white;
+	pading: 15px 32px ;
+	text-align: center;
+}
 /* Sidebar derecha */
 #sideRight {
     width: 18%;
